@@ -212,3 +212,10 @@ main section{
 .queries-item:hover{
     background-color: rgb(73, 72, 72);
 }
+footer{
+    height: 50px;
+    text-align: center;
+}
+footer:hover{
+    color: red;
+}
