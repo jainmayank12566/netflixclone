@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('./images/headerimagebackground.png');
+    height: 100vh;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 4px solid gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header #div1{
+    background-image: url('./images/netflixinside.jpg');
+    height: 70px;
+    width: 150px;
+    background-size: cover;
+    padding: 10px;
+}
+header #div2{
+    margin: 20px 60px;
+}
+header #div2 select{
+    height: 40px;
+    width: auto;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+header #div2 button{
+    height: 40px;
+    width: auto;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#section2{
+    margin: auto;
+}
+#section2 h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#section2 h5{
+    margin-left: 35%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#section2 p{
+    margin-top: 20px;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#headerinput{
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #9e9e9d;
+    color: black;
+    font-weight: bold;
+}
+#btn-header{
+    margin-left: 10px;
+    padding: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+main section{
+    height: 100vh;
+    border-bottom: 4px solid grey;
+}
+#section-main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#section-main1 #span1{
+    margin-left: 12%;
+}
+#section-main1 #span1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#section-main1 #span1 h3{
+    font-weight: lighter;
+    font-size: 26px;
+    width: 80%;
+}
+#section-main1 #span2{
+    margin-right: 12%;
+}
+#section-main1 #span2 img{
+    width: 100%;
+}
+
+#section-main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#section-main2 #span1{
+    margin-left: 12%;
+}
+#section-main2 #span2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#section-main2 #span2 h3{
+    font-weight: lighter;
+    font-size: 26px;
+    width: 80%;
+}
+#section-main2 #span2{
+    margin-right: 12%;
+}
+#section-main2 #span1 img{
+    width: 100%;
+}
+.queries{
+    height: 150vh;
+}
+.queries h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.queries-section{
+    width: 1000px;
+    margin: 20px auto;
+}
+.queries-item{
+    background-color: rgb(53, 52, 52);
+    padding: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.queries-questions{
+    color: white;
+    font-size: 20px;
+}
+.queries-answers{
+    display: none;
+    margin: 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+#membership{
+    text-align: center;
+    margin-top: 40px;
+}
+#membership p{
+    font-size: 20px;
+}
+#membership form{
+    margin-top: 20px;
+}
+#membership form #emailform{
+    background-color: inherit;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+#membership form #buttonform{
+    width: 150px;
+    padding: 15px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.queries-item:hover{
+    background-color: rgb(73, 72, 72);
+}
